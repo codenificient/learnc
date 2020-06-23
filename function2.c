@@ -1,19 +1,20 @@
 #include <stdio.h>
 
-void soup(void)
-{
-    puts("Soup!");
-}
-
 int main()
 {
-    printf("For breakfast, I had ");
-    soup();
-    printf("For lunch, I had ");
-    soup();
-    printf("For dinner, I had ");
-    soup();
+    puts("At first, the raven was like: ");
+    repeat(1);
+    puts("But then he wall wall: ");
+    repeat(5);
 
     return(0);
 }
 
+void repeat(int count)
+{
+    int x;
+
+    for ( x = 0; x < count; x++ )
+        puts("Nevermore");
+
+}
