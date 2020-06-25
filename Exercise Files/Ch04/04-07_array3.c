@@ -11,11 +11,11 @@ int main()
 	puts("Calorie Counter");
 	for(x=0;x<MEALS;x++)
 	{
-		printf("Calories at meal %d: ",x+1);
-		scanf("%d",&calories[x]);
-		total = total + calories[x];
+		printf("Calories at meal %d: ",x+1); // prompt user for their calorie intake
+		scanf("%d",&calories[x]); // store the value
+		total = total + calories[x]; // add up all values
 	}
-	printf("You had a total of %d calories.\n",total);
+	printf("You had a total of %d calories.\n",total); // printout user total cal intake
 
 	return(0);
 }

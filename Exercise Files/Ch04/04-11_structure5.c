@@ -11,6 +11,7 @@ int main()
 	struct person {
 		char name[32];
 		struct date birthday;
+		struct date inauguration;
 	};
 	struct person friend;
 

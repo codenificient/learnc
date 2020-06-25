@@ -9,7 +9,9 @@ int main()
 	{
 		acter = getchar();
 		if(isalpha(acter))
-			putchar(acter);
+            // isalpha determines if char is part of the alphabet or something else
+			putchar(acter)
+			// function above will filter out non-alpha and display only alpha characters
 	}
 	while( acter != '\n');
 

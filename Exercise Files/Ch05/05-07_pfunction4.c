@@ -14,13 +14,13 @@ int main()
 
 char *encrypt(char *input)
 {
-	char output[64];
+	static char output[64];
 	int x = 0;
 
 	while(*input)
 	{
 		if(isalpha(*input))
-			output[x] = *input + 1;
+			output[x] = *input - 2;
 		else
 			output[x] = *input;
 		x++;

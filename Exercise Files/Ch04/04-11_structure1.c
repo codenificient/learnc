@@ -1,4 +1,5 @@
 #include <stdio.h>
+// very complex
 
 int main()
 {
@@ -6,6 +7,7 @@ int main()
 		int account;
 		float balance;
 	};
+    struct bank checking;
 
 	return(0);
 }

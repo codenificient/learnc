@@ -4,7 +4,7 @@
 int main()
 {
 	int c;
-
+    puts("Type anything: ");
 	do
 	{
 		c = getchar();

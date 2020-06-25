@@ -4,9 +4,8 @@ int main()
 {
 	struct person {
 		char name[32];
-		int age;
-	};
-	struct person president = {
+		int age; // remove the semicolon before president (declaring a struct)
+	} president = {
 		"George Washington",
 		67
 	};

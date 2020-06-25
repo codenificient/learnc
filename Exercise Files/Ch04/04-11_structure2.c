@@ -8,8 +8,8 @@ int main()
 	};
 	struct bank checking;
 
-	checking.account = 1234;
-	checking.balance = 567.89;
+	checking.account = 2143;
+	checking.balance = 789.65;
 
 	printf("Checking account %d has a balance of %f\n",
         checking.account,

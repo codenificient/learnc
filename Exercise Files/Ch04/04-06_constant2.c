@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define INPUT_MAX 16
+#define INPUT_MAX 120
 
 int main()
 {

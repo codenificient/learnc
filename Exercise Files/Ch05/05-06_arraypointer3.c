@@ -5,9 +5,10 @@ int main()
 	int array[] = { 11, 13, 17, 19 };
 	int *aptr;
 
-	aptr = array;		/* no & needed for an array */
+	aptr = array;
 
-	printf("The element is %d\n",*aptr);
+	printf("The element is %d\n",*(aptr+3));
+	printf("The element is %d\n",array[2]);
 
 	return(0);
 }

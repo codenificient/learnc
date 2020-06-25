@@ -10,7 +10,7 @@ int main()
 	char *result;
 
 	result = longer(string1,string2);
-	printf("String '%s' is longer.\n",result);
+	printf(" String '%s' is longer.\n",result);
 
 	return(0);
 }

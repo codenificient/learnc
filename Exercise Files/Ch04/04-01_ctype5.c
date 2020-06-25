@@ -9,7 +9,9 @@ int main()
 	{
 		acter = getchar();
 		if(isdigit(acter))
+		// isdigit determines if user input is digits,
 			putchar(acter);
+        //then will filter out everything else and only display digits
 	}
 	while( acter != '\n');
 
